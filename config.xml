@@ -5,7 +5,7 @@
 	version   = "1.0.0">
 	
 <name> Carol Rasta 1.0 </name>
-<icon src="cabecera.gif" gap:platform="android" gap:density="ldpi" />
+<icon src="cabecera.jpg" gap:platform="android" gap:density="ldpi" />
 <gap:splash src="splash.png" gap:platform="android" gap:density="ldpi" />
 <gap:splash src="splash.png" gap:platform="android" gap:density="mdpi" />
 <gap:splash src="splash.png" gap:platform="android" gap:density="hdpi" />
