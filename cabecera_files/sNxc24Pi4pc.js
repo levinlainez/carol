@@ -1,0 +1,5 @@
+/*!CK:2972805541!*//*1449519548,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["g3DtO"]); }
+
+__d('VideoWatchAndScrollControl.react',['AbstractButton.react','Image.react','React','ReactDOM','cx','fbt','ix','shallowCompare'],function a(b,c,d,e,f,g,h,i,j,k,l,m,n,o){if(c.__markCompiled)c.__markCompiled();var p,q;'use strict';var r=j.PropTypes;p=babelHelpers.inherits(s,j.Component);q=p&&p.prototype;s.prototype.shouldComponentUpdate=function(t,u){return o(this,t,u);};s.prototype.onMouseOut=function(t){k.findDOMNode(this.refs.button).blur();};s.prototype.onButtonClick=function(){this.props.onToggleWatchAndScroll&&this.props.onToggleWatchAndScroll();};s.prototype.render=function(){var t=j.createElement(i,{src:n('images/video/player/controls/hq_icons/watch-and-scroll-left.png')});return (j.createElement(h,{'aria-label':m._("Enter Watch And Scroll"),className:"_zbd",image:t,onClick:this.onButtonClick.bind(this),onMouseOut:this.onMouseOut,ref:'button',type:'button'}));};function s(){p.apply(this,arguments);}s.propTypes={isWatchAndScrollActive:r.bool,onToggleWatchAndScroll:r.func};f.exports=s;},null);
