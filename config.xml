@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.phonegap.example"
+	version   = "1.0.0">
+	
+<name> Carol Rasta 1.0 </name>
+<icon src="cabecera.gif" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash.png" gap:platform="android" gap:density="ldpi" />
+
+<description>
+Con mucho cariño espero que te guste
+</description>
+<preference name="permissions" value="none"/>
+
+</widget>
